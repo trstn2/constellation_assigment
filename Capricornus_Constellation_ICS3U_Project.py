@@ -1,5 +1,11 @@
+# Tristan Tingey
+# December 12th 2024
+# Constellation Assignment for Computer Science Grade 11 Class.
+
+# Imports turtle library
 import turtle
 
+# Makes the 500x by 500x window
 turtle.Turtle()
 turtle.setup(500, 500)
 turtle.bgcolor("black")
