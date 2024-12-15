@@ -11,7 +11,7 @@ turtle.setup(500, 500)
 turtle.bgcolor("black")
 turtle.pencolor("white")
 
-
+# Star Variables at specefic coordinates.
 star0 = (0,0)
 turtle.penup()
 turtle.goto(star0)
@@ -65,6 +65,7 @@ star12 = (125,123)
 turtle.goto(star12)
 turtle.dot(5,"white")
 
+# Making the turtle go to the specific coordinates with the name being defined.
 turtle.goto(star1)
 name1 = turtle.write("Dorsum")
 turtle.goto(-80, 60)
@@ -90,6 +91,7 @@ name11 = turtle.write("Algiedi", move=False, align="left")
 turtle.goto(125, 135)
 name12 = turtle.write("Alshat", move=False, align="right")
 
+# Turtle drawing the lines to connect them together.
 turtle.goto(star1)
 turtle.pendown()
 turtle.goto(star2)
@@ -145,4 +147,5 @@ turtle.penup()
 turtle.goto(star1)
 turtle.penup()
 
+# End the turtle function
 turtle.done()
